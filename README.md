@@ -108,4 +108,4 @@ As you do this, you will see that each successive class can be written by duplic
 Take the multi-branch statement that decides which type of instruction is created, and modify the code so that it uses `reflection` to create the instances, i.e., remove the explicit calls to the subclasses. This will allow the SML language to be extended without having to modify the original code.
 
 ## Submission
-As part of your portfolio your repository will be `cloned` at the appropriate due date and time.
+As part of your portfolio your repository will be _cloned_ at the appropriate due date and time.
