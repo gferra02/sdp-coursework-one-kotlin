@@ -20,7 +20,7 @@ In SML, there are instructions for adding, multiplying and so on, for storing an
 
 SML has the following instructions:
 
-*sml.Instruction	Description*
+**sml.Instruction	Description**
 `L1 add r s1 s2`	Add the contents of registers `s1` and `s2` and store the result in register `r`
 `L1 sub r s1 s2`	Subtract the contents of register `s2` from the contents of `s1` and store the result in register `r`
 `L1 mul r s1 s2`	Multiply the contents of registers `s1` and `s2` and store the result in register `r`
@@ -46,7 +46,7 @@ f5 bnz 20
 f3 f6 out 21
 ```
 
-*Note* that adjacent fields of an instruction (label, opcode, and operands) are separated by whitespace.
+**Note** that adjacent fields of an instruction (label, opcode, and operands) are separated by whitespace.
 
 Instructions of a program are executed in order (starting with the first one), unless the order is changed by execution of a `bnz` instruction. Execution terminates when its last instruction has been executed (and doesn’t change the order of execution).
 
@@ -97,11 +97,11 @@ You are only allowed to add subclasses of `Instruction` and to modify the multi-
 
 2. Then create a subclass of `sml.Instruction` for each kind of SML instruction and fix `Machine` so that it properly translates that kind of instruction.
 
-*Recommended:* Write one instruction at a time and check it out thoroughly, before proceeding to the next!
+**Recommended:** Write one instruction at a time and check it out thoroughly, before proceeding to the next!
 
 For example, your first program will consist only of `add` instructions. After you have checked that the instruction `add` works correctly, progress to working with the `multiply`, `subtract` instructions, etc.
 
-As you do this, you will see that each successive class can be written by duplicating a previous one and modifying it (obviously avoiding too much repeated code - remember *DRY*).
+As you do this, you will see that each successive class can be written by duplicating a previous one and modifying it (obviously avoiding too much repeated code - remember **DRY**).
 
 1. For each instruction, the subclass needs appropriate fields, a constructor, method `toString`, and a method `execute`; `toString` and `execute` should override the same methods in class `sml.Instruction`.
 
