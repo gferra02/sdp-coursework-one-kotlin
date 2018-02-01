@@ -1,0 +1,8 @@
+# Kotil, Scala and Java
+
+*.class
+*.log
+
+# Production dirs
+
+out/

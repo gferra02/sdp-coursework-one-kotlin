@@ -16,11 +16,12 @@ where
 
 In SML, there are instructions for adding, multiplying and so on, for storing and retrieving integers, and for conditionally branching to other labels (like an `if` statement).
 
-`register-list` is the list of registers that the instruction manipulates. sml.Registers are simple, integer, storage areas in computer memory, much like variables. In SML, there are 32 registers, numbered 0, 1, ... , 31.
+`register-list` is the list of registers that the instruction manipulates. `sml.Registers` are simple, integer, storage areas in computer memory, much like variables. In SML, there are 32 registers, numbered 0, 1, ... , 31.
 
 SML has the following instructions:
 
 **sml.Instruction	Description**
+
 `L1 add r s1 s2`	Add the contents of registers `s1` and `s2` and store the result in register `r`
 `L1 sub r s1 s2`	Subtract the contents of register `s2` from the contents of `s1` and store the result in register `r`
 `L1 mul r s1 s2`	Multiply the contents of registers `s1` and `s2` and store the result in register `r`
