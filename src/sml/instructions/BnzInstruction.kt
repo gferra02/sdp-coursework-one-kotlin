@@ -8,8 +8,9 @@ import sml.Machine
  *
  */
 
-class BnzInstruction(label: String, val register: Int, val value: String) : Instruction(label, "bnz") {
+class BnzInstruction(label: String, val register: Int, val branch: String) : Instruction(label, "bnz") {
 
+    // I need to read the value in the register referred to in the instruction
     override fun execute(m: Machine) {
         m.registers.setRegister(register, value)
     }
