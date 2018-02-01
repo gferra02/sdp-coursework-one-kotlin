@@ -1,6 +1,7 @@
 package sml
 
 import sml.instructions.AddInstruction
+import sml.instructions.BnzInstruction
 import sml.instructions.LinInstruction
 import sml.instructions.MulInstruction
 import sml.instructions.NoOpInstruction
@@ -108,6 +109,10 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
                 s1 = scanInt()
                 s2 = scanInt()
                 AddInstruction(label, r, s1, s2)
+            }
+            "bnz" -> {
+                r = scanInt()
+                BnzInstruction(label, r)
             }
             "lin" -> {
                 r = scanInt()
