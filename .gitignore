@@ -6,3 +6,7 @@
 # Production dirs
 
 out/
+
+# Local
+
+*.pdf

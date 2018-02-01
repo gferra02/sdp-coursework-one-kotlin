@@ -8,7 +8,7 @@ import sml.Machine
  *
  */
 
-class BnzInstruction(label: String, val register: Int, val value: Int) : Instruction(label, "bnz") {
+class BnzInstruction(label: String, val register: Int, val value: String) : Instruction(label, "bnz") {
 
     override fun execute(m: Machine) {
         m.registers.setRegister(register, value)
