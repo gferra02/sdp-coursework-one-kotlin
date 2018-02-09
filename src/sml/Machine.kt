@@ -52,10 +52,8 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
      */
     fun execute() {
         while (pc < prog.size) {
-            println()
             val ins = prog[pc++]
             ins.execute(this)
-            print("----")
         }
     }
 
