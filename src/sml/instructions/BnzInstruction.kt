@@ -15,10 +15,8 @@ class BnzInstruction(label: String, val register: Int, val nextLabel: String) : 
         // Check value in register is not 0 before branching
         val regval = m.registers.getRegister(register)
 
-        if (regval != 0) {
-            // Assign index to pc
-            m.pc = m.labels.getLabels().indexOf(nextLabel)
-        }
+        // Assign index to pc
+        if (regval != 0) m.pc = m.labels.getLabels().indexOf(nextLabel)
     }
 
     override fun toString(): String {
