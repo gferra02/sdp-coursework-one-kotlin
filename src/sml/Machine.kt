@@ -5,6 +5,7 @@ import sml.instructions.BnzInstruction
 import sml.instructions.LinInstruction
 import sml.instructions.MulInstruction
 import sml.instructions.NoOpInstruction
+import sml.instructions.OutInstruction
 import sml.instructions.SubInstruction
 import java.io.File
 import java.io.IOException
@@ -127,10 +128,11 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
                 s2 = scanInt()
                 MulInstruction(label, r, s1, s2)
             }
-//            "out" -> {
-//                r = scanInt()
-//                OutInstruction(label, r)
-//            }
+            "out" -> {
+                r = scanInt()
+                s1 = scanInt()
+                OutInstruction(label, r, s1)
+            }
             "sub" -> {
                 r = scanInt()
                 s1 = scanInt()
