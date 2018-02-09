@@ -101,6 +101,7 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
         val s1: Int // Possible operands of the instruction
         val s2: Int
         val r: Int
+        val nextLabel: String
 
         val ins = scan()
         return when (ins) { // replace with reflection
@@ -112,7 +113,8 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
             }
             "bnz" -> {
                 r = scanInt()
-                BnzInstruction(label, r)
+                nextLabel = scan()
+                BnzInstruction(label, r, nextLabel)
             }
             "lin" -> {
                 r = scanInt()
@@ -125,6 +127,10 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
                 s2 = scanInt()
                 MulInstruction(label, r, s1, s2)
             }
+//            "out" -> {
+//                r = scanInt()
+//                OutInstruction(label, r)
+//            }
             "sub" -> {
                 r = scanInt()
                 s1 = scanInt()
