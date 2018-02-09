@@ -1,7 +1,6 @@
 package sml.instructions
 
 import sml.Instruction
-import sml.Labels
 import sml.Machine
 
 /**
@@ -15,19 +14,20 @@ class BnzInstruction(label: String, val register: Int, val nextLabel: String) : 
 
         // Check value in register is not 0 before branching
         val regval = m.registers.getRegister(register)
+        val nextInst = m.getInstruction(nextLabel)
 
-        if (regval != 0) // execute where label == nextLabel
-            println("Value not zero")
+        if (regval != 0)
+            // println(regval)
+            println("Next inst: $nextInst")
 
-        // RECURSION
+            // TODO() Get the whole instruction
+            // execute where label == nextLabel
+            // RECURSION
 
-        // else nothing, it should read the last instruction and execute "out"
-        // TODO() remove. here for testing purposes
-        else println("Zero, should go to end of programme")
+            println(nextInst.execute(m))
     }
 
     override fun toString(): String {
-        // return super.toString() + " register " + register + " value " + value
         return super.toString() + " current register: $register label: $label nextLabel: $nextLabel"
     }
 }

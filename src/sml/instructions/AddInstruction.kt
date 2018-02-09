@@ -16,6 +16,6 @@ class AddInstruction(label: String, val result: Int, val op1: Int, val op2: Int)
     }
 
     override fun toString(): String {
-        return super.toString() + " " + op1 + " + " + op2 + " to " + result
+        return super.toString() + " val in reg " + op1 + " + val in reg " + op2 + " and store value in reg " + result
     }
 }
