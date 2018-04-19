@@ -11,6 +11,7 @@ import java.io.File
 import java.io.IOException
 import java.util.Scanner
 import kotlin.collections.ArrayList
+import kotlin.reflect.*
 
 /*
  * The machine language interpreter
@@ -106,6 +107,18 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
 
         val ins = scan()
         return when (ins) { // replace with reflection
+
+            // For every instruction I can find the parameters and their types,
+            // so I can build this list
+
+            // Psuedo code:
+            // { $opcode } ->
+            //      forEach(instruction parameter p) {
+            //          p = ScanInt()
+            //      }
+            //      ExecuteInstruction($label, p)
+            // }
+                
             "add" -> {
                 r = scanInt()
                 s1 = scanInt()
@@ -139,6 +152,7 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
                 s2 = scanInt()
                 SubInstruction(label, r, s1, s2)
             }
+
             else -> {
                 NoOpInstruction(label, line)
             }
