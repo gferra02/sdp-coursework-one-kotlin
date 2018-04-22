@@ -6,15 +6,19 @@ import kotlin.reflect.full.memberProperties
 
 fun main(args: Array<String>) {
 
-    val dir =  System.getProperty("user.dir") + "/src/sml/instructions"
-
-    val listClassNames = File(dir).walk().forEach {
-        val fullPath = it.toString()
-        val fullName = fullPath.substringAfterLast("/")
-        val fileName = fullName.substringBeforeLast(".")
-        val c = fileName::class
-        println(c.simpleName)
-    }
+    // Learning to access classes for Reflection
+    //    val c = Instruction::class
+    //
+    //    println("Class c simpleName = " + c.simpleName)
+    //
+    //    val dir =  System.getProperty("user.dir") + "/src/sml/instructions"
+    //
+    //    val listClassNames = File(dir).walk().forEach {
+    //        val fullPath = it.toString()
+    //        val fullName = fullPath.substringAfterLast("/")
+    //        val fileName = fullName.substringBeforeLast(".")
+    //        println(fileName)
+    //    }
 
     if (args.size != 1) {
         println("Incorrect number of arguments - sml.Machine <file> - required")

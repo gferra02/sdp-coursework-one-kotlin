@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b676f89c-750f-4fda-8673-cef2d1d3f68d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/sml/Machine.kt" afterPath="$PROJECT_DIR$/src/sml/Machine.kt" />
       <change beforePath="$PROJECT_DIR$/src/sml/main.kt" afterPath="$PROJECT_DIR$/src/sml/main.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sml/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="126">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
                 <element signature="e#13#95#0" expanded="true" />
               </folding>
@@ -40,24 +39,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Machine.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Machine.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sml/Machine.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="129" column="15" lean-forward="false" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
+            <state relative-caret-position="-70">
+              <caret line="101" column="52" lean-forward="false" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
               <folding>
                 <element signature="e#13#418#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test4.sml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test4.sml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -146,8 +135,8 @@
         <option value="$PROJECT_DIR$/src/sml/instructions/SubInstruction.kt" />
         <option value="$PROJECT_DIR$/src/sml/instructions/BnzInstruction.kt" />
         <option value="$PROJECT_DIR$/src/sml/instructions/OutInstruction.kt" />
-        <option value="$PROJECT_DIR$/src/sml/Machine.kt" />
         <option value="$PROJECT_DIR$/src/sml/main.kt" />
+        <option value="$PROJECT_DIR$/src/sml/Machine.kt" />
       </list>
     </option>
   </component>
@@ -382,12 +371,12 @@
       <workItem from="1524317038538" duration="296000" />
       <workItem from="1524317385296" duration="489000" />
       <workItem from="1524317945156" duration="164000" />
-      <workItem from="1524318172694" duration="8916000" />
+      <workItem from="1524318172694" duration="10467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71555000" />
+    <option name="totallyTimeSpent" value="73106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -395,15 +384,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278237" sideWeight="0.41130185" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278237" sideWeight="0.39842632" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3553719" sideWeight="0.36266094" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25482094" sideWeight="0.27682403" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3553719" sideWeight="0.63733906" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42424244" sideWeight="0.61587983" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25592417" sideWeight="0.731533" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25482094" sideWeight="0.72317594" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18454936" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -879,22 +868,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/Machine.kt">
+    <entry file="file://$PROJECT_DIR$/src/sml/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="129" column="15" lean-forward="false" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
+        <state relative-caret-position="126">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
-            <element signature="e#13#418#0" expanded="true" />
+            <element signature="e#13#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/main.kt">
+    <entry file="file://$PROJECT_DIR$/src/sml/Machine.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="-70">
+          <caret line="101" column="52" lean-forward="false" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
           <folding>
-            <element signature="e#13#95#0" expanded="true" />
+            <element signature="e#13#418#0" expanded="true" />
           </folding>
         </state>
       </provider>
