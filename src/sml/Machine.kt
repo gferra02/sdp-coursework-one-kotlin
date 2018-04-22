@@ -112,11 +112,21 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
             // so I can build this list
 
             // Psuedo code:
-            // { $opcode } ->
-            //      forEach(instruction parameter p) {
-            //          p = ScanInt()
-            //      }
-            //      ExecuteInstruction($label, p)
+            // try {
+            //     val c = { $fileName }::class
+            //     val param = // getParameters
+
+            //     { $opcode } ->
+            //         forEach(param p) {
+            //             if (p is of type Int) {
+            //                 p = ScanInt()
+            //             } else if (p is of type String) {
+            //                 p = Scan()
+            //             }
+            //         }
+            //         ExecuteInstruction($label, p)
+            // } catch (e Exception) {
+            //     println("Error: " + e)
             // }
                 
             "add" -> {
